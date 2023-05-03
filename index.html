@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/style.css">
+<head>
+	<title>Censo de materias</title>
+</head>
+<body>
+	<h1>Censo de materias de la universidad</h1>
+	<p>Ingrese los datos correspondientes para realizar en censo</p>
+
+	<form>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre"><br>
+
+		<label for="cedula">Número de cédula:</label>
+		<input type="text" id="cedula" name="cedula"><br>
+
+		<label for="carrera">Carrera:</label>
+		<select id="carrera" name="carrera">
+			<option value="Ingeniería">ingeniria civil</option>
+			<option value="Ciencias">ingenieria informatica</option>
+			<option value="Humanidades">ingenieria en hidrocarburos</option>
+		</select><br>
+
+		<label for="materia1">Materia 1:</label>
+		<select id="materia1" name="materia1">
+			<option value="Matemáticas">Matemáticas 1</option>
+			<option value="Física">Física 1</option>
+			<option value="Química">electiva 1</option>
+		</select><br>
+
+		<label for="materia2">Materia 2:</label>
+		<select id="materia2" name="materia2">
+			<option value="Programación">Programación 1</option>
+			<option value="Base de datos">Base de datos</option>
+			<option value="Redes">Redes</option>
+		</select><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
